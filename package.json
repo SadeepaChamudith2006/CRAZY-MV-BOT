@@ -1,0 +1,30 @@
+{
+    "name": "NEWS-BOT",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name news",
+    "stop": "pm2 stop news",
+    "restart": "pm2 restart news"
+    },
+    
+    "dependencies": {
+    "@whiskeysockets/baileys": "git+https://github.com/al-e-dev/Baileys", 
+    "pino": "^7.0.5",
+    "pm2": "^5.3.1",
+    "util": "^0.12.4",
+    "canvas": "^2.11.2",
+    "pexels": "^1.4.0",
+    "express": "latest",
+    "jimp": "latest",
+    "child_process": "latest",
+    "qrcode-terminal": "latest",
+    "file-type": "^16.5.3",
+    "axios": "^1.2.5",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "pg": "8.13.1"
+    }
+    }
